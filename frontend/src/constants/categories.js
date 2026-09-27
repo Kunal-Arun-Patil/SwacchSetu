@@ -1,0 +1,61 @@
+// Waste category metadata — icons, colors, and disposal tips
+export const CATEGORIES = [
+  {
+    id: 'Organic',
+    label: 'Organic',
+    emoji: '🌿',
+    color: 'emerald',
+    bgClass: 'bg-emerald-50 border-emerald-200 hover:bg-emerald-100',
+    activeClass: 'bg-emerald-500 border-emerald-500 text-white',
+    badgeClass: 'bg-emerald-100 text-emerald-800',
+    tip: 'Compost fruit peels, vegetable scraps, and garden waste. Avoid meat and dairy in home compost.',
+  },
+  {
+    id: 'Recyclable',
+    label: 'Recyclable',
+    emoji: '♻️',
+    color: 'blue',
+    bgClass: 'bg-blue-50 border-blue-200 hover:bg-blue-100',
+    activeClass: 'bg-blue-500 border-blue-500 text-white',
+    badgeClass: 'bg-blue-100 text-blue-800',
+    tip: 'Rinse plastic bottles and glass jars before recycling. Flatten cardboard boxes to save space.',
+  },
+  {
+    id: 'E-Waste',
+    label: 'E-Waste',
+    emoji: '💻',
+    color: 'purple',
+    bgClass: 'bg-purple-50 border-purple-200 hover:bg-purple-100',
+    activeClass: 'bg-purple-500 border-purple-500 text-white',
+    badgeClass: 'bg-purple-100 text-purple-800',
+    tip: 'Never throw electronics in regular bins — they contain toxic metals. Data-wipe devices before disposal.',
+  },
+  {
+    id: 'Hazardous',
+    label: 'Hazardous',
+    emoji: '⚠️',
+    color: 'amber',
+    bgClass: 'bg-amber-50 border-amber-200 hover:bg-amber-100',
+    activeClass: 'bg-amber-500 border-amber-500 text-white',
+    badgeClass: 'bg-amber-100 text-amber-800',
+    tip: 'Store chemicals in original containers. Keep away from heat. Never mix different chemicals.',
+  },
+  {
+    id: 'General',
+    label: 'General',
+    emoji: '🗑️',
+    color: 'gray',
+    bgClass: 'bg-gray-50 border-gray-200 hover:bg-gray-100',
+    activeClass: 'bg-gray-500 border-gray-500 text-white',
+    badgeClass: 'bg-gray-100 text-gray-800',
+    tip: 'General waste goes to landfill. Reduce by checking if items can be recycled or donated first.',
+  },
+];
+
+export const STATUSES = [
+  { id: 'Pending', label: 'Pending', color: 'bg-yellow-100 text-yellow-800', dot: 'bg-yellow-500' },
+  { id: 'Scheduled', label: 'Scheduled', color: 'bg-blue-100 text-blue-800', dot: 'bg-blue-500' },
+  { id: 'In Progress', label: 'In Progress', color: 'bg-orange-100 text-orange-800', dot: 'bg-orange-500' },
+  { id: 'Collected', label: 'Collected', color: 'bg-emerald-100 text-emerald-800', dot: 'bg-emerald-500' },
+  { id: 'Cancelled', label: 'Cancelled', color: 'bg-red-100 text-red-800', dot: 'bg-red-500' },
+];
